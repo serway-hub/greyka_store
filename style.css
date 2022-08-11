@@ -1,0 +1,476 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* family fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+
+/* header code */
+#topPagina{
+    position: sticky;
+    top: 0.1px;
+    background: white;
+    z-index: 4;
+}
+.SubFooter{
+    display: flex;
+}
+.hamburger_menu{
+    height: 48px;
+    width: 48px;
+}
+.bootom_headerA{
+    height: 30px;
+    width: 30px;
+    
+}
+.bootom_headerB{
+    height: 30px;
+    width: 30px;
+}
+.icon1{
+    padding-top: 10px;
+}
+.menuHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray; 
+    padding-left: 20px;   
+}
+.First_Menu{
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  border-bottom: 1px solid #456789;
+  max-width: 200px;
+  font-variant: small-caps;
+  font-family: 'Inter', sans-serif;
+}
+.Hamburger_menu input[type="checkbox"], .Hamburger_menu .bootom_headerA, .Hamburger_menu .bootom_headerB {
+    position:absolute;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+  }
+  /*  */
+  .hamburger_menu .bootom_headerA, .hamburger_menu .bootom_headerB {
+    font-size: 48px;
+    pointer-events: none;
+  }
+  
+  .hamburger_menu input[type="checkbox"] {
+    opacity: 0;
+  }
+  .sub-listfooter{
+    width: 150px;
+    background: white;
+
+  }
+  
+  .hamburger_menu {
+    color: gray;
+    position: relative;
+    min-height: 48px;
+  }
+  
+  .Nav_Hamburguer {
+    display:none;
+    padding-top: 50px;
+  }
+  
+  .hamburger_menu input:checked ~ nav {
+    display: block;
+  
+  }
+  
+  .hamburger_menu input:checked ~ .bootom_headerA {
+    display:none;  
+  }
+  
+  .hamburger_menu input:not(:checked) ~ .bootom_headerB {
+    display: none;
+  
+  }
+  input#Open_Colse{
+    cursor: pointer;
+  }
+  .Icons_Four{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    font-weight: 100;
+    margin: 0 auto;
+    padding-bottom: 5px;
+  }
+  .sub-menusectionB{
+    text-align: center;
+    font-size: 12px;
+
+  }
+  /*  */
+.search{
+    display: flex;
+    padding-left: 50px;
+}
+.nav_searchA{
+    height: 44px;
+}
+.nav_searchAB{
+    width: 44px;
+    height: 44px;
+}
+.logo{
+    width: 80px;
+}
+.search{
+    width: 800px;
+}
+#searchPrincipal{
+    width: 650px;
+}
+.menu_section{
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+    list-style: none;
+}
+.sub-menusection{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 350px;
+    padding: 5px;
+}
+
+/* section main */
+
+#principalSection{
+    padding: 10px;
+    background: #ebebeb;
+}
+.carrouselProductosmujer{
+    width: 1309px;
+}
+.Barnner_Mujer{
+    width: 1309px;
+}
+/* seccion icoonos debajo del barnner */
+.icons_home{
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: white;
+    border: 1px #ebebeb;
+    border-radius: 10px;
+}
+.section_iconsB{
+    display: flex;
+    justify-content: space-between;
+}
+.Box_iconsB{
+    border-right: 1px solid grey;
+    padding-right: 20px;
+}
+.Box_iconsA{
+    padding-left: 20px;
+}
+.SubBarnner_ofered{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.Imag_Barnner{
+    width: 400px;
+    height: 200px;
+}
+.Parr_barnnerOfer{
+    position: relative;
+    bottom: 190px;
+    left: 10px;
+    font-family: 'Mingzat', sans-serif;
+    font-weight: 600;
+}
+/* Secciones Productos Hombre-niños-mujer-hogar */
+.ConteItem{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.boxHome_productos{
+    padding: 4px;
+}
+.Tittle_secction{
+    padding-bottom: 20px;
+    color: #7c667c;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+}
+.TitleProduct{
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 10px;
+}
+.SubItemPrice{
+    font-weight: 500;
+    font-size: 20;
+    font-family: 'Nova Mono', monospace;
+}
+.ProductosParahombre{
+    padding: 30px;
+}
+.ProductosParaMujer{
+    padding: 30px;
+}
+.ProductosParaniños{
+    padding: 30px;
+}
+.ProductosParaHombreB{
+    display: flex;
+}
+.carrouselItems{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;   
+}
+.ImageHome_products{
+    height: 676px;
+    width: 500px;
+}
+.image_homeSection{
+    background: white;
+}
+.boxHome_productos{
+    background: white;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+/* footer section */
+#FooterHome{
+    border-top: 1px solid chocolate;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.sectionFooter{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+}
+.sub-listfooter{
+    list-style: none;
+    padding: 5px;
+}
+.Social_mediaContac{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Social_subicon{
+    height: 30px;
+    width: 30px;
+}
+.Social_inf{
+    padding-bottom: 10px;
+}
+.Social_mediaContacS{
+    display: flex;
+    justify-items: center;
+}
+.Information_bus{
+    padding-top: 8px;
+    padding-left: 4px;
+}
+.social_icon{
+    height: 30px;
+}
+
+.logo_footer{
+    padding-bottom: 10px;
+}
+.Information_entrepise{
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+.Footer_copyrigth{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+}
+.copy_footer{
+    padding-top: 10px;
+}
+.Footer_imagepaymet{
+    padding-top: 10px;
+}
+.SubFooter{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.accountCustomer{
+    padding-top: 30px;
+}
+.informationEmpresa{
+    padding-top: 30px;
+}
+.categorias{
+    padding-top: 30px;
+}
+.social_media{
+    padding-top: 30px;
+}
+.Social_mediaA{
+    padding-top: 10px;
+}
+.Contac_form{
+    padding-top: 30px;
+}
+.form_sub{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.Tittle_footerC{
+    color: #7c667c;
+}
+.Email_clib{
+    height: 30px;
+
+}
+button.Email_clib{
+    background: #ffa040;
+    border: 0px;
+}
+
+.Inf_enter{
+    padding-top: 10px;
+}
+/* terms and condition section */
+#terminosYcondiciones{
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    font-family: 'Mingzat', sans-serif;
+}
+
+/* About us section */
+/* parte 1 */
+.who_are{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    font-family: 'Mingzat', sans-serif;
+
+} 
+.who_areA{
+    max-width: 255px;
+}
+.who_areB{
+    -webkit-box-flex: 2;
+    flex: 2;
+    columns: 2;
+    column-fill: balance;
+    padding-left: 50px;
+}
+/* parte 2 */
+.ubication_are{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+    font-family: 'Mingzat', sans-serif;
+
+}
+.Ubication_A{
+    font-size: 2.813rem;
+    color: #343434;
+    line-height: 3rem;
+    font-weight: 300px;
+    font-family: 'Mingzat', sans-serif;
+
+}
+.Our_ubicationNac{
+    background: #9546b1;
+    max-width: 450px;
+    width: 100%;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-top: 64px;
+    padding: 48px;
+    margin-left: 2px;
+    color: white;   
+}
+.Our_ubicationInt{
+    background: #2dbcb6;
+    max-width: 450px;
+    width: 100%;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-top: 64px;
+    padding: 48px;
+    margin-left: 2px;
+    color: white;   
+}
+/* contac_form section */
+#Contactanos{
+    padding-top: 30px;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 200px;
+    font-family: 'Mingzat', sans-serif;
+}
+
+/* Payment section */
+
+#principalSectionPagos{
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    font-family: 'Mingzat', sans-serif;
+}
+
+/* Track_Order */
+#seguimientopedido{
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    font-family: 'Mingzat', sans-serif;
+}
+
+.track_form{
+    display: flex;
+}
+/* .seccion productos hogar */
+
+.Productos_Hogar{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+}
+.section_products{
+    display: inline-flex;
+    flex-direction: row;
+}
+ol{
+    list-style: none;
+}
+
+
+
