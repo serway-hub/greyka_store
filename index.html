@@ -6,8 +6,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="home_central">
     <header>
+        <div class="Shipping_cost">
+            <h2 class="shippinB">
+                Envíos gratis en compras superiore a $100.000
+            </h2>
+        </div>
         <div class="menuHeader">
             <div class="hamburger_menu">
                 <input id="Open_Colse" name="Open_Colse" type="checkbox" value="">
@@ -23,7 +28,7 @@
                 </nav>
             </div>
             <div class="logo">
-                <a href="http://127.0.0.1:5500/index.html"><img src="/Image/greyka-store-logo.webp" alt="Greyka Store"></a>
+                <a href="http://127.0.0.1:5500/index.html"><img src="/Image/greyka-store-logo.webp" alt="Greyka Store" class="Image_Logo"></a>
             </div>
             <div class="search">
                 <div class="nav-search">
@@ -36,10 +41,10 @@
             <div class="menu_section">
                 <nav class="menu_sectionB">
                     <ul class="sub-menusection">
-                        <li class="sub-menusectionB"><a href="Micuenta.html"><img src="/iconos/account_circle_FILL0_wght400_GRAD0_opsz48.png" alt="" class="Icons_Four">Mi Cuenta</a></li>
-                        <li class="sub-menusectionB"><a href="seguimientoped.html"><img src="/iconos/favorite_FILL0_wght400_GRAD0_opsz48.png" alt="" class="Icons_Four"></a>Mis Favoritos</li>
-                        <li class="sub-menusectionB"><a href="seguimientoped.html"><img src="/iconos/local_shipping_FILL0_wght400_GRAD0_opsz48.png" alt="" class="Icons_Four">Seguimiento Pedido</a></li>
-                        <li class="sub-menusectionB"><a href="MiCarrito.html"><img src="/iconos/shopping_cart_FILL0_wght400_GRAD0_opsz48.png" alt="" class="Icons_Four">Mi Carrito</a></li>
+                        <li class="sub-menusectionB iconA"><a href="Micuenta.html"><img src="/iconos/account_circle_FILL0_wght400_GRAD0_opsz48.png" alt="" class="Icons_Four">Mi Cuenta</a></li>
+                        <li class="sub-menusectionB iconB"><a href="seguimientoped.html"><img src="/iconos/favorite_FILL0_wght400_GRAD0_opsz48.png" alt="" class="Icons_Four"></a>Mis Favoritos</li>
+                        <li class="sub-menusectionB iconC"><a href="seguimientoped.html"><img src="/iconos/local_shipping_FILL0_wght400_GRAD0_opsz48.png" alt="" class="Icons_Four">Seguimiento Pedido</a></li>
+                        <li class="sub-menusectionB IconD"><a href="MiCarrito.html"><img src="/iconos/shopping_cart_FILL0_wght400_GRAD0_opsz48.png" alt="" class="Icons_Four"></a><span class="item_frase">Mi Carrito</span></li>
                     </ul>
                 </nav>
             </div>
@@ -47,7 +52,7 @@
     </header>
     <main role="main" id="principalSection">
         <div class="homePrincipal">
-            <div>
+            <div class="SubHomeprincipal">
                 <section class="carrouselPrincipal">
                     <div class="carrouselProductosmujer">
                         <img src="/Image/barnner-mujer14-1024x218.webp" alt="Productos para mujer" class="Barnner_Mujer">
@@ -56,34 +61,42 @@
                 <section class="icons_home">
                     <div class="section_icons">
                         <div class="section_iconsB">
-                            <div class="Box_iconsA">
-                                <img src="/iconos/shipping.png" alt="envios rapidos">    
+                            <div class="section_subicons">
+                                <div class="Box_iconsA">
+                                    <img src="/iconos/shipping.png" alt="envios rapidos" class="icons_pict">    
+                                </div>
+                                <div class="Box_iconsB">
+                                    <strong><span>Envios Gratis</span></strong><br>
+                                    <span>En compras superiores a $100.000</span>
+                                </div>
                             </div>
-                            <div class="Box_iconsB">
-                                <strong><span>Envios Gratis</span></strong><br>
-                                <span>En compras superiores a $100.000</span>
+                            <div class="section_subicons">
+                                <div class="Box_iconsA">
+                                    <img src="/iconos/credit card.png" alt="Pagos seguros" class="icons_pict">    
+                                </div>
+                                <div class="Box_iconsB">
+                                    <strong><span>Pagos Seguros</span></strong><br>
+                                    <span>100% pagos seguros</span>
+                                </div>
                             </div>
-                            <div class="Box_iconsA">
-                                <img src="/iconos/credit card.png" alt="Pagos seguros">    
+                            <div class="section_subicons">
+                                <div class="Box_iconsA">
+                                    <img src="/iconos/chat.png" alt="Atencion al cliente 24Hras" class="icons_pict">    
+                                </div>
+                                <div class="Box_iconsB">
+                                    <strong><span>Call center 24 Hras</span></strong><br>
+                                    <span>24/7 estamos atentos a inquietudes</span>
+                                </div>
                             </div>
-                            <div class="Box_iconsB">
-                                <strong><span>Pagos Seguros</span></strong><br>
-                                <span>100% pagos seguros</span>
-                            </div>
-                            <div class="Box_iconsA">
-                                <img src="/iconos/chat.png" alt="Atencion al cliente 24Hras">    
-                            </div>
-                            <div class="Box_iconsB">
-                                <strong><span>Call center 24 Hras</span></strong><br>
-                                <span>24/7 estamos atentos a inquietudes</span>
-                            </div>
-                            <div class="Box_iconsA">
-                                <img src="/iconos/servicio.png" alt="servicio al cliente">    
-                            </div>
-                            <div class="Box_iconsBC">
-                                <strong><span>Tenemos el mejor servicio al cliente</span></strong><br>
-                                <span>Estamos para servirte</span>
-                            </div>
+                            <div class="section_subicons">
+                                <div class="Box_iconsA">
+                                    <img src="/iconos/servicio.png" alt="servicio al cliente" class="icons_pict">    
+                                </div>
+                                <div class="Box_iconsBC">
+                                    <strong><span>Tenemos el mejor servicio al cliente</span></strong><br>
+                                    <span>Estamos para servirte</span>
+                                </div>
+                            </div>                            
                         </div>
                     </div>
                 </section>
@@ -117,7 +130,7 @@
                                     <div class="carrouselItems">
                                         <div class="boxHome_productos">
                                             <div class="carrouselImage">
-                                                <img src="/Productos/BotaUnder.webp" alt="Bota Under Armour">
+                                                <img src="/Productos/BotaUnder.webp" alt="Bota Under Armour" class="Imag_home">
                                             </div>
                                             <div class="ConteItem">
                                                 <div class="TitleProduct">
@@ -130,7 +143,7 @@
                                         </div>
                                         <div class="boxHome_productos">
                                             <div class="carrouselImage">
-                                                <img src="/Productos/Balenciagatriples.webp" alt="Tenis balenciaga triple s">
+                                                <img src="/Productos/Balenciagatriples.webp" alt="Tenis balenciaga triple s" class="Imag_home">
                                             </div>
                                             <div class="ConteItem">
                                                 <div class="TitleProduct">
@@ -143,7 +156,7 @@
                                         </div>
                                         <div class="boxHome_productos">
                                             <div class="carrouselImage">
-                                                <img src="/Productos/Ralphpololauren.jpg" alt="Ralph polo lauren">
+                                                <img src="/Productos/Ralphpololauren.jpg" alt="Ralph polo lauren" class="Imag_home">
                                             </div>
                                             <div class="ConteItem">
                                                 <div class="TitleProduct">
@@ -154,9 +167,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="boxHome_productos">
+                                        <div class="boxHome_productos prod_four">
                                             <div class="carrouselImage">
-                                                <img src="/Productos/RelojInteligente.webp" alt="Reloj inteligente ">
+                                                <img src="/Productos/RelojInteligente.webp" alt="Reloj inteligente " class="Imag_home">
                                             </div>
                                             <div class="ConteItem">
                                                 <div class="TitleProduct">
@@ -167,9 +180,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="boxHome_productos">
+                                        <div class="boxHome_productos prod_five">
                                             <div class="carrouselImage">
-                                                <img src="/Productos/Tenis-ecco-para-hombre-4-230x230.webp" alt="Tenis ecco para hombre">
+                                                <img src="/Productos/Tenis-ecco-para-hombre-4-230x230.webp" alt="Tenis ecco para hombre" class="Imag_home">
                                             </div>
                                             <div class="ConteItem">
                                                 <div class="TitleProduct">
@@ -197,7 +210,7 @@
                                     <div class="carrouselItems">
                                         <div class="boxHome_productos">
                                             <div class="carrouselImage">
-                                                <img src="/Productos/BotaUnder.webp" alt="Bota Under Armour">
+                                                <img src="/Productos/BotaUnder.webp" alt="Bota Under Armour" class="Imag_home">
                                             </div>
                                             <div class="ConteItem">
                                                 <div class="TitleProduct">
@@ -210,7 +223,7 @@
                                         </div>
                                         <div class="boxHome_productos">
                                             <div class="carrouselImage">
-                                                <img src="/Productos/Balenciagatriples.webp" alt="Tenis balenciaga triple s">
+                                                <img src="/Productos/Balenciagatriples.webp" alt="Tenis balenciaga triple s" class="Imag_home">
                                             </div>
                                             <div class="ConteItem">
                                                 <div class="TitleProduct">
@@ -223,7 +236,7 @@
                                         </div>
                                         <div class="boxHome_productos">
                                             <div class="carrouselImage">
-                                                <img src="/Productos/Ralphpololauren.jpg" alt="Ralph polo lauren">
+                                                <img src="/Productos/Ralphpololauren.jpg" alt="Ralph polo lauren" class="Imag_home">
                                             </div>
                                             <div class="ConteItem">
                                                 <div class="TitleProduct">
@@ -234,9 +247,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="boxHome_productos">
+                                        <div class="boxHome_productos prod_four">
                                             <div class="carrouselImage">
-                                                <img src="/Productos/RelojInteligente.webp" alt="Reloj inteligente ">
+                                                <img src="/Productos/RelojInteligente.webp" alt="Reloj inteligente" class="Imag_home">
                                             </div>
                                             <div class="ConteItem">
                                                 <div class="TitleProduct">
@@ -247,9 +260,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="boxHome_productos">
+                                        <div class="boxHome_productos prod_five">
                                             <div class="carrouselImage">
-                                                <img src="/Productos/Tenis-ecco-para-hombre-4-230x230.webp" alt="Tenis ecco para hombre">
+                                                <img src="/Productos/Tenis-ecco-para-hombre-4-230x230.webp" alt="Tenis ecco para hombre" class="Imag_home">
                                             </div>
                                             <div class="ConteItem">
                                                 <div class="TitleProduct">
@@ -275,7 +288,7 @@
                     </div>
                     <div class="ProductosParaHombreB">
                         <div class="image_homeSection">
-                            <img src="/image/Niños2.jpg" alt="Ofertas Hombre" class="ImageHome_products">
+                            <img src="/image/Niños2.jpg" alt="Ofertas Hombre" class="ImageHome_products" class="Imag_home">
                         </div>
                         <div class="SectionHombre">
                             <div class="sectionCarrousel">
@@ -283,7 +296,7 @@
                                     <div class="carrouselItems">
                                         <div class="boxHome_productos">
                                             <div class="carrouselImage">
-                                                <img src="/Productos/BotaUnder.webp" alt="Bota Under Armour">
+                                                <img src="/Productos/BotaUnder.webp" alt="Bota Under Armour" class="Imag_home">
                                             </div>
                                             <div class="ConteItem">
                                                 <div class="TitleProduct">
@@ -296,7 +309,7 @@
                                         </div>
                                         <div class="boxHome_productos">
                                             <div class="carrouselImage">
-                                                <img src="/Productos/Balenciagatriples.webp" alt="Tenis balenciaga triple s">
+                                                <img src="/Productos/Balenciagatriples.webp" alt="Tenis balenciaga triple s" class="Imag_home">
                                             </div>
                                             <div class="ConteItem">
                                                 <div class="TitleProduct">
@@ -309,7 +322,7 @@
                                         </div>
                                         <div class="boxHome_productos">
                                             <div class="carrouselImage">
-                                                <img src="/Productos/Ralphpololauren.jpg" alt="Ralph polo lauren">
+                                                <img src="/Productos/Ralphpololauren.jpg" alt="Ralph polo lauren" class="Imag_home">
                                             </div>
                                             <div class="ConteItem">
                                                 <div class="TitleProduct">
@@ -320,9 +333,9 @@
                                                 </div>
                                             </div>
                                         </div >
-                                        <div class="boxHome_productos">
+                                        <div class="boxHome_productos prod_four">
                                             <div class="carrouselImage">
-                                                <img src="/Productos/RelojInteligente.webp" alt="Reloj inteligente ">
+                                                <img src="/Productos/RelojInteligente.webp" alt="Reloj inteligente" class="Imag_home">
                                             </div>
                                             <div class="ConteItem">
                                                 <div class="TitleProduct">
@@ -333,9 +346,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="boxHome_productos">
+                                        <div class="boxHome_productos prod_five">
                                             <div class="carrouselImage">
-                                                <img src="/Productos/Tenis-ecco-para-hombre-4-230x230.webp" alt="Tenis ecco para hombre">
+                                                <img src="/Productos/Tenis-ecco-para-hombre-4-230x230.webp" alt="Tenis ecco para hombre" class="Imag_home">
                                             </div>
                                             <div class="ConteItem">
                                                 <div class="TitleProduct">
@@ -356,6 +369,19 @@
         </div>
     </main>
     <footer id="FooterHome">
+        <div class="Contac_form">
+            <div class="suscribe">
+                <p>Suscribete a nuestro Newsletter</p>
+            </div>
+            <div class="form_sub">
+                <form action="">
+                    <input type="email" name="email" placeholder="Ingrese su email" id="Email_cliente" class="Email_clib">
+                </form>
+                <form action="" class="form_suscrib">
+                    <button type="submit" value="Suscribete" class="Email_clib">Suscribete</button> 
+                </form>
+            </div>
+        </div>
         <div class="sectionFooter">
             <div class="information_entrepise">
                 <div class="logo_footer">
@@ -417,18 +443,6 @@
                 <div class="Social_mediaA">
                     <a href="https://www.facebook.com/Greykastore"><img src="/iconos/facebook.png" alt="" class="Social_icon"></a>
                     <a href="https://www.instagram.com/greyka_store/"><img src="/iconos/instagram.png" alt=""class="Social_icon"></a>
-                </div>
-                <div class="Contac_form">
-                    <p>Suscribete a nuestro Newsletter</p>
-                    <p>&nbsp;</p>
-                    <div class="form_sub">
-                        <form action="">
-                            <input type="email" name="email" placeholder="Ingrese su email" id="Email_cliente" class="Email_clib">
-                        </form>
-                        <form action="" class="form_suscrib">
-                            <button type="submit" value="Suscribete" class="Email_clib">Suscribete</button> 
-                        </form>
-                    </div>
                 </div>
             </div>
         </div>
