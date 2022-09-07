@@ -1,8 +1,170 @@
+
+/* este es es header*/
 .homme_header{
-    menuHeader{
-        bootom_headerA{
-            height: 20px;
-            width: 20px;
+    .Shipping_cost{
+        background: linear-gradient(to right,blue,white);
+        text-align: center;
+        font-family: 'Mulish', sans-serif;
+        .shippinB{
+            color: #ebebeb;
+            background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
+            background-clip: text;
+            animation: color 3s linear infinite;
+            background-size: 500%;
+        }
+        @keyframes color {
+            from{
+                background-position: 0% 50%;
+            }
+            to{
+                background-position: 100% 50%;
+            }
+          }
+    }
+    .menuHeader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid gray;
+        padding-left: 20px;
+        /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
+        .Hamburger_menu input[type="checkbox"], .Hamburger_menu .bootom_headerA, .Hamburger_menu .bootom_headerB {
+            position:absolute;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            right: 0;
+            top: 0;
+            width: 48px;
+            height: 48px;
+        }
+        .hamburger_menu .bootom_headerA, .hamburger_menu .bootom_headerB {
+            font-size: 48px;
+            pointer-events: none;
+        }
+        .hamburger_menu input[type="checkbox"] {
+            opacity: 0;
+        }
+        .hamburger_menu input:checked ~ nav {
+            display: block;
+        }
+        .hamburger_menu input:checked ~ .bootom_headerA {
+            display:none;
+        }
+        
+        .hamburger_menu input:not(:checked) ~ .bootom_headerB {
+            display: none;
+          }
+        input#Open_Colse{
+            cursor: pointer;
+        }
+        /*aqui finaliza el codigo del menu desplegable hamburguesa*/
+        .hamburger_menu {
+            height: 48px;
+            width: 48px;
+            color: gray;
+            position: relative;
+            min-height: 48px;
+            .bootom_headerA{
+                height: 30px;
+                width: 30px;  
+            }
+            .bootom_headerB{
+                height: 30px;
+                width: 30px;
+            }
+            .Nav_Hamburguer{
+                display:none;
+                padding-top: 50px;
+                .sub-listfooter text_header{
+                    width: 150px;
+                    background: white;
+                    .SubFooter{
+                        .icon1{
+                            padding-top: 10px;
+                        }
+                        .First_Menu{
+                            color: inherit;
+                            text-decoration: none;
+                            display: block;
+                            padding: 10px 20px;
+                            border-bottom: 1px solid #456789;
+                            max-width: 200px;
+                            font-variant: small-caps;
+                            font-family: 'Inter', sans-serif;
+                        }
+                    }
+                }
+            }
+
+        }
+        .logo{
+            width: 80px;
+        }
+        .search{
+            display: flex;
+            padding-left: 20px;
+            padding-right: 10px;
+            .nav-search{
+                padding-left: 5px;
+                #searchPrincipal{
+                    width: 650px;
+                }
+                .nav_searchA{
+                    height: 44px;
+                }
+            }
+            .nav_searchB{
+                .nav_searchAB{
+                    width: 44px;
+                    height: 44px;
+                }
+            }
+        }
+        .menu_section{
+            font-family: 'Inter', sans-serif;
+            padding: 10px;
+            list-style: none;
+            .menu_sectionB{
+                .sub-menusection{
+                    display: flex;
+                    text-align: center;
+                    font-size: 12px;
+                    justify-content: space-between;
+                    list-style: none;
+                    width: 350px;
+                    padding: 5px;
+                    .sub-menusectionB:hover{
+                        background: #F3F3F3;
+                    }
+                    .sub-menusectionB{
+                        .Icons_Four{
+                            height: 35px;
+                            width: 35px;
+                            display: flex;
+                            font-weight: 100;
+                            margin: 0 auto;
+                            padding-bottom: 5px;
+                            filter: invert(54%) sepia(12%) saturate(4%) hue-rotate(345deg) brightness(90%) contrast(89%);
+                        }
+                        .Icons_Four:hover{
+                            filter: invert(32%) sepia(26%) saturate(784%) hue-rotate(198deg) brightness(102%) contrast(96%);
+                        }
+                    }
+                    .iconA{
+
+                    }
+                    .iconB{
+
+                    }
+                    .iconC{
+
+                    }
+                    .iconD{
+
+                    }
+                }
+            }
         }
     }
 }

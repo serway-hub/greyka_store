@@ -1,0 +1,141 @@
+#FooterHome{
+    border-top: 1px solid chocolate;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    a{
+        text-decoration: none;
+    }
+    .Contac_form{
+        padding-top: 30px;
+        .suscribe{
+        }
+        .form_sub{
+            display: flex;
+            .Email_clib{
+                height: 30px;
+            }
+            #Email_cliente{
+
+            }
+            .form_suscrib{
+                .button.Email_clib{
+                    background: #ffa040;
+                    border: 0px;
+                }
+            }
+        }
+    }
+    .sectionFooter{
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Inter', sans-serif;
+        .information_entrepise{
+            padding-top: 7px;
+            padding-bottom: 10px;
+            .logo_footer{
+                padding-bottom: 10px;
+            }
+            .Information_entrepise{
+                .Inf_enter{
+                    padding-top: 10px;
+                }
+            }
+        }
+        .Social_mediaContac{
+            display: flex;
+            flex-direction: column;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            .Social_mediaContacS{
+                display: flex;
+                justify-items: center;
+                .Social_subicon{
+                    height: 30px;
+                    width: 30px;
+                }
+                .Information_bus{
+                    padding-top: 8px;
+                    padding-left: 4px;
+                }
+            }
+        }
+        .categorias{
+            padding-top: 30px;
+            .Tittle_footerC{
+                color: #7c667c;
+            }
+            .sub-listfooter{
+                list-style: none;
+                padding: 5px;
+                .SubFooter{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+
+            }
+            .text_footer{
+
+            }
+
+        }
+        .accountCustomer{
+            padding-top: 30px;
+            .Tittle_footerC{
+                color: #7c667c;
+            }
+            .sub-listfooter{
+                list-style: none;
+                padding: 5px;
+                .SubFooter{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+            }
+            .text_footer{
+
+            }
+        }
+        .informationEmpresa{
+            padding-top: 30px;
+            .Tittle_footerC{
+                color: #7c667c;
+            }
+            .sub-listfooter{
+                list-style: none;
+                padding: 5px;
+                .SubFooter{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+            }
+            .text_footer{
+
+            }
+        }
+        .social_media{
+            padding-top: 30px;
+            .Social_mediaA{
+                padding-top: 10px;
+                .Social_icon{
+                    height: 30px;
+                }
+            }
+        }
+    }
+    .Footer_copyrigth{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid grey;
+        .copy_footer{
+            padding-top: 10px;
+
+        }
+        .Footer_imagepaymet{
+            padding-top: 10px;
+
+        }
+    }
+
+}

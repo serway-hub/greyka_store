@@ -1,9 +1,459 @@
-.homme_header menuHeader {
-  display: grid;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
 }
-.homme_header menuHeader hamburger_menu bootom_headerA {
-  height: 20px;
-  width: 20px;
+
+@font-face {
+  font-family: Muli-titulos;
+  src: url("tipografia/Muli-Semi-BoldItalic.ttf");
+}
+/* este es es header*/
+.homme_header .Shipping_cost {
+  background: linear-gradient(to right, blue, white);
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+}
+.homme_header .Shipping_cost .shippinB {
+  color: #ebebeb;
+  background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+  background-clip: text;
+  animation: color 3s linear infinite;
+  background-size: 500%;
+}
+@keyframes color {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 100% 50%;
+  }
+}
+.homme_header .menuHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding-left: 20px;
+  /*esta seccion esta dentro del menu pero es el codigo para el menu desplegable del header*/
+  /*aqui finaliza el codigo del menu desplegable hamburguesa*/
+}
+.homme_header .menuHeader .Hamburger_menu input[type=checkbox], .homme_header .menuHeader .Hamburger_menu .bootom_headerA, .homme_header .menuHeader .Hamburger_menu .bootom_headerB {
+  position: absolute;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  right: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+}
+.homme_header .menuHeader .hamburger_menu .bootom_headerA, .homme_header .menuHeader .hamburger_menu .bootom_headerB {
+  font-size: 48px;
+  pointer-events: none;
+}
+.homme_header .menuHeader .hamburger_menu input[type=checkbox] {
+  opacity: 0;
+}
+.homme_header .menuHeader .hamburger_menu input:checked ~ nav {
+  display: block;
+}
+.homme_header .menuHeader .hamburger_menu input:checked ~ .bootom_headerA {
+  display: none;
+}
+.homme_header .menuHeader .hamburger_menu input:not(:checked) ~ .bootom_headerB {
+  display: none;
+}
+.homme_header .menuHeader input#Open_Colse {
+  cursor: pointer;
+}
+.homme_header .menuHeader .hamburger_menu {
+  height: 48px;
+  width: 48px;
+  color: gray;
+  position: relative;
+  min-height: 48px;
+}
+.homme_header .menuHeader .hamburger_menu .bootom_headerA {
+  height: 30px;
+  width: 30px;
+}
+.homme_header .menuHeader .hamburger_menu .bootom_headerB {
+  height: 30px;
+  width: 30px;
+}
+.homme_header .menuHeader .hamburger_menu .Nav_Hamburguer {
+  display: none;
+  padding-top: 50px;
+}
+.homme_header .menuHeader .hamburger_menu .Nav_Hamburguer .sub-listfooter text_header {
+  width: 150px;
+  background: white;
+}
+.homme_header .menuHeader .hamburger_menu .Nav_Hamburguer .sub-listfooter text_header .SubFooter .icon1 {
+  padding-top: 10px;
+}
+.homme_header .menuHeader .hamburger_menu .Nav_Hamburguer .sub-listfooter text_header .SubFooter .First_Menu {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  border-bottom: 1px solid #456789;
+  max-width: 200px;
+  font-variant: small-caps;
+  font-family: "Inter", sans-serif;
+}
+.homme_header .menuHeader .logo {
+  width: 80px;
+}
+.homme_header .menuHeader .search {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.homme_header .menuHeader .search .nav-search {
+  padding-left: 5px;
+}
+.homme_header .menuHeader .search .nav-search #searchPrincipal {
+  width: 650px;
+}
+.homme_header .menuHeader .search .nav-search .nav_searchA {
+  height: 44px;
+}
+.homme_header .menuHeader .search .nav_searchB .nav_searchAB {
+  width: 44px;
+  height: 44px;
+}
+.homme_header .menuHeader .menu_section {
+  font-family: "Inter", sans-serif;
+  padding: 10px;
+  list-style: none;
+}
+.homme_header .menuHeader .menu_section .menu_sectionB .sub-menusection {
+  display: flex;
+  text-align: center;
+  font-size: 12px;
+  justify-content: space-between;
+  list-style: none;
+  width: 350px;
+  padding: 5px;
+}
+.homme_header .menuHeader .menu_section .menu_sectionB .sub-menusection .sub-menusectionB:hover {
+  background: #F3F3F3;
+}
+.homme_header .menuHeader .menu_section .menu_sectionB .sub-menusection .sub-menusectionB .Icons_Four {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  font-weight: 100;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  filter: invert(54%) sepia(12%) saturate(4%) hue-rotate(345deg) brightness(90%) contrast(89%);
+}
+.homme_header .menuHeader .menu_section .menu_sectionB .sub-menusection .sub-menusectionB .Icons_Four:hover {
+  filter: invert(32%) sepia(26%) saturate(784%) hue-rotate(198deg) brightness(102%) contrast(96%);
+}
+/*Esta es la seccion del barnner*/
+#principalSection {
+  padding: 10px;
+  background: #ebebeb;
+}
+#principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal .carrouselProductosmujer {
+  width: 1309px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal .carrouselProductosmujer .Barnner_Mujer {
+  width: 1309px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .icons_home {
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: white;
+  border: 1px #ebebeb;
+  border-radius: 10px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .icons_home .section_icons .section_iconsB {
+  display: flex;
+  justify-content: space-between;
+}
+#principalSection .homePrincipal .SubHomeprincipal .icons_home .section_icons .section_iconsB .section_subicons .Box_iconsA {
+  padding-left: 20px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .icons_home .section_icons .section_iconsB .section_subicons .Box_iconsB {
+  border-right: 1px solid grey;
+  padding-right: 20px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .Barnner_Ofered .SubBarnner_ofered {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .Barnner_Ofered .SubBarnner_ofered .Barnner_imag .Imag_Barnner {
+  width: 400px;
+  height: 200px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .Barnner_Ofered .SubBarnner_ofered .Barnner_imag .Imag_Barnner .Parr_barnnerOfer {
+  position: relative;
+  bottom: 190px;
+  left: 10px;
+  font-family: "Mingzat", sans-serif;
+  font-weight: 600;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParahombre {
+  padding: 30px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParahombre .Tittle_secction {
+  padding-bottom: 20px;
+  color: #7c667c;
+  font-family: "Mulish", sans-serif;
+  font-weight: 900;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParahombre .ProductosParaHombreB {
+  display: flex;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParahombre .ProductosParaHombreB .image_homeSection {
+  background: white;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParahombre .ProductosParaHombreB .image_homeSection .ImageHome_products {
+  height: 676px;
+  width: 500px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParahombre .ProductosParaHombreB .SectionHombre .sectionCarrousel .carrouselProductoshombre .carrouselItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 30px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParahombre .ProductosParaHombreB .SectionHombre .sectionCarrousel .carrouselProductoshombre .carrouselItems .boxHome_productos {
+  padding: 4px;
+  background: white;
+  margin: 4px;
+  border-radius: 4px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParahombre .ProductosParaHombreB .SectionHombre .sectionCarrousel .carrouselProductoshombre .carrouselItems .boxHome_productos .ConteItem {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParahombre .ProductosParaHombreB .SectionHombre .sectionCarrousel .carrouselProductoshombre .carrouselItems .boxHome_productos .ConteItem .TitleProduct {
+  font-family: "Inter", sans-serif;
+  padding-bottom: 10px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParahombre .ProductosParaHombreB .SectionHombre .sectionCarrousel .carrouselProductoshombre .carrouselItems .boxHome_productos .ConteItem .ItemsPrice .SubItemPrice {
+  font-weight: 500;
+  font-size: 20;
+  font-family: "Nova Mono", monospace;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaMujer {
+  padding: 30px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaMujer .Tittle_secction {
+  padding-bottom: 20px;
+  color: #7c667c;
+  font-family: "Mulish", sans-serif;
+  font-weight: 900;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaMujer .ProductosParaHombreB {
+  display: flex;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaMujer .ProductosParaHombreB .image_homeSection {
+  background: white;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaMujer .ProductosParaHombreB .image_homeSection .ImageHome_products {
+  height: 676px;
+  width: 500px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaMujer .ProductosParaHombreB .SectionHombre .sectionCarrousel .carrouselProductoshombre .carrouselItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 30px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaMujer .ProductosParaHombreB .SectionHombre .sectionCarrousel .carrouselProductoshombre .carrouselItems .boxHome_productos {
+  padding: 4px;
+  background: white;
+  margin: 4px;
+  border-radius: 4px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaMujer .ProductosParaHombreB .SectionHombre .sectionCarrousel .carrouselProductoshombre .carrouselItems .boxHome_productos .ConteItem {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaMujer .ProductosParaHombreB .SectionHombre .sectionCarrousel .carrouselProductoshombre .carrouselItems .boxHome_productos .ConteItem .TitleProduct {
+  font-family: "Inter", sans-serif;
+  padding-bottom: 10px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaMujer .ProductosParaHombreB .SectionHombre .sectionCarrousel .carrouselProductoshombre .carrouselItems .boxHome_productos .ConteItem .ItemsPrice .SubItemPrice {
+  font-weight: 500;
+  font-size: 20;
+  font-family: "Nova Mono", monospace;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaniños {
+  padding: 30px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaniños .Tittle_secction {
+  padding-bottom: 20px;
+  color: #7c667c;
+  font-family: "Mulish", sans-serif;
+  font-weight: 900;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaniños .ProductosParaHombreB {
+  display: flex;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaniños .ProductosParaHombreB .image_homeSection {
+  background: white;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaniños .ProductosParaHombreB .image_homeSection .ImageHome_products {
+  height: 676px;
+  width: 500px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaniños .ProductosParaHombreB .SectionHombre .sectionCarrousel .carrouselProductoshombre .carrouselItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 30px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaniños .ProductosParaHombreB .SectionHombre .sectionCarrousel .carrouselProductoshombre .carrouselItems .boxHome_productos {
+  padding: 4px;
+  background: white;
+  margin: 4px;
+  border-radius: 4px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaniños .ProductosParaHombreB .SectionHombre .sectionCarrousel .carrouselProductoshombre .carrouselItems .boxHome_productos .ConteItem {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaniños .ProductosParaHombreB .SectionHombre .sectionCarrousel .carrouselProductoshombre .carrouselItems .boxHome_productos .ConteItem .TitleProduct {
+  font-family: "Inter", sans-serif;
+  padding-bottom: 10px;
+}
+#principalSection .homePrincipal .SubHomeprincipal .ProductosParaniños .ProductosParaHombreB .SectionHombre .sectionCarrousel .carrouselProductoshombre .carrouselItems .boxHome_productos .ConteItem .ItemsPrice .SubItemPrice {
+  font-weight: 500;
+  font-size: 20;
+  font-family: "Nova Mono", monospace;
+}
+#FooterHome {
+  border-top: 1px solid chocolate;
+  margin: 5px;
+  padding: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+#FooterHome a {
+  text-decoration: none;
+}
+#FooterHome .Contac_form {
+  padding-top: 30px;
+}
+#FooterHome .Contac_form .form_sub {
+  display: flex;
+}
+#FooterHome .Contac_form .form_sub .Email_clib {
+  height: 30px;
+}
+#FooterHome .Contac_form .form_sub .form_suscrib .button.Email_clib {
+  background: #ffa040;
+  border: 0px;
+}
+#FooterHome .sectionFooter {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+}
+#FooterHome .sectionFooter .information_entrepise {
+  padding-top: 7px;
+  padding-bottom: 10px;
+}
+#FooterHome .sectionFooter .information_entrepise .logo_footer {
+  padding-bottom: 10px;
+}
+#FooterHome .sectionFooter .information_entrepise .Information_entrepise .Inf_enter {
+  padding-top: 10px;
+}
+#FooterHome .sectionFooter .Social_mediaContac {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#FooterHome .sectionFooter .Social_mediaContac .Social_mediaContacS {
+  display: flex;
+  justify-items: center;
+}
+#FooterHome .sectionFooter .Social_mediaContac .Social_mediaContacS .Social_subicon {
+  height: 30px;
+  width: 30px;
+}
+#FooterHome .sectionFooter .Social_mediaContac .Social_mediaContacS .Information_bus {
+  padding-top: 8px;
+  padding-left: 4px;
+}
+#FooterHome .sectionFooter .categorias {
+  padding-top: 30px;
+}
+#FooterHome .sectionFooter .categorias .Tittle_footerC {
+  color: #7c667c;
+}
+#FooterHome .sectionFooter .categorias .sub-listfooter {
+  list-style: none;
+  padding: 5px;
+}
+#FooterHome .sectionFooter .categorias .sub-listfooter .SubFooter {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#FooterHome .sectionFooter .accountCustomer {
+  padding-top: 30px;
+}
+#FooterHome .sectionFooter .accountCustomer .Tittle_footerC {
+  color: #7c667c;
+}
+#FooterHome .sectionFooter .accountCustomer .sub-listfooter {
+  list-style: none;
+  padding: 5px;
+}
+#FooterHome .sectionFooter .accountCustomer .sub-listfooter .SubFooter {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#FooterHome .sectionFooter .informationEmpresa {
+  padding-top: 30px;
+}
+#FooterHome .sectionFooter .informationEmpresa .Tittle_footerC {
+  color: #7c667c;
+}
+#FooterHome .sectionFooter .informationEmpresa .sub-listfooter {
+  list-style: none;
+  padding: 5px;
+}
+#FooterHome .sectionFooter .informationEmpresa .sub-listfooter .SubFooter {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#FooterHome .sectionFooter .social_media {
+  padding-top: 30px;
+}
+#FooterHome .sectionFooter .social_media .Social_mediaA {
+  padding-top: 10px;
+}
+#FooterHome .sectionFooter .social_media .Social_mediaA .Social_icon {
+  height: 30px;
+}
+#FooterHome .Footer_copyrigth {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid grey;
+}
+#FooterHome .Footer_copyrigth .copy_footer {
+  padding-top: 10px;
+}
+#FooterHome .Footer_copyrigth .Footer_imagepaymet {
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

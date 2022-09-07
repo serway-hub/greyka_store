@@ -1,2 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+
+@font-face {
+    font-family: Muli-titulos;
+    src: url('tipografia/Muli-Semi-BoldItalic.ttf');
+}
+
 @import 'header';
 @import 'main';
+@import 'footer'
