@@ -1,12 +1,16 @@
+@import '../Base/variables';
 
+@mixin headshippingcost {
+    background: linear-gradient(to right,blue,white);
+    text-align: center;
+    font-family: 'Mulish', sans-serif;    
+}
 /* este es es header*/
 .homme_header{
     .Shipping_cost{
-        background: linear-gradient(to right,blue,white);
-        text-align: center;
-        font-family: 'Mulish', sans-serif;
+        @include headshippingcost();
         .shippinB{
-            color: #ebebeb;
+            color:nth($list: $color, $n:1 );
             background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
             background-clip: text;
             animation: color 3s linear infinite;
@@ -122,7 +126,7 @@
             }
         }
         .menu_section{
-            font-family: 'Inter', sans-serif;
+            font-family:$fuenteheader;
             padding: 10px;
             list-style: none;
             .menu_sectionB{

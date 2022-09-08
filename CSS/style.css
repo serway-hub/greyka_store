@@ -9,6 +9,125 @@
   font-family: Muli-titulos;
   src: url("tipografia/Muli-Semi-BoldItalic.ttf");
 }
+#FooterHome {
+  border-top: 1px solid chocolate;
+  margin: 5px;
+  padding: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+#FooterHome a {
+  text-decoration: none;
+}
+#FooterHome .Contac_form {
+  padding-top: 30px;
+}
+#FooterHome .Contac_form .form_sub {
+  display: flex;
+}
+#FooterHome .Contac_form .form_sub .Email_clib {
+  height: 30px;
+}
+#FooterHome .Contac_form .form_sub .form_suscrib .button.Email_clib {
+  background: #ffa040;
+  border: 0px;
+}
+#FooterHome .sectionFooter {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+}
+#FooterHome .sectionFooter .information_entrepise {
+  padding-top: 7px;
+  padding-bottom: 10px;
+}
+#FooterHome .sectionFooter .information_entrepise .logo_footer {
+  padding-bottom: 10px;
+}
+#FooterHome .sectionFooter .information_entrepise .Information_entrepise .Inf_enter {
+  padding-top: 10px;
+}
+#FooterHome .sectionFooter .Social_mediaContac {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#FooterHome .sectionFooter .Social_mediaContac .Social_mediaContacS {
+  display: flex;
+  justify-items: center;
+}
+#FooterHome .sectionFooter .Social_mediaContac .Social_mediaContacS .Social_subicon {
+  height: 30px;
+  width: 30px;
+}
+#FooterHome .sectionFooter .Social_mediaContac .Social_mediaContacS .Information_bus {
+  padding-top: 8px;
+  padding-left: 4px;
+}
+#FooterHome .sectionFooter .categorias {
+  padding-top: 30px;
+}
+#FooterHome .sectionFooter .categorias .Tittle_footerC {
+  color: #7c667c;
+}
+#FooterHome .sectionFooter .categorias .sub-listfooter {
+  list-style: none;
+  padding: 5px;
+}
+#FooterHome .sectionFooter .categorias .sub-listfooter .SubFooter {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#FooterHome .sectionFooter .accountCustomer {
+  padding-top: 30px;
+}
+#FooterHome .sectionFooter .accountCustomer .Tittle_footerC {
+  color: #7c667c;
+}
+#FooterHome .sectionFooter .accountCustomer .sub-listfooter {
+  list-style: none;
+  padding: 5px;
+}
+#FooterHome .sectionFooter .accountCustomer .sub-listfooter .SubFooter {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#FooterHome .sectionFooter .informationEmpresa {
+  padding-top: 30px;
+}
+#FooterHome .sectionFooter .informationEmpresa .Tittle_footerC {
+  color: #7c667c;
+}
+#FooterHome .sectionFooter .informationEmpresa .sub-listfooter {
+  list-style: none;
+  padding: 5px;
+}
+#FooterHome .sectionFooter .informationEmpresa .sub-listfooter .SubFooter {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#FooterHome .sectionFooter .social_media {
+  padding-top: 30px;
+}
+#FooterHome .sectionFooter .social_media .Social_mediaA {
+  padding-top: 10px;
+}
+#FooterHome .sectionFooter .social_media .Social_mediaA .Social_icon {
+  height: 30px;
+}
+#FooterHome .Footer_copyrigth {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid grey;
+}
+#FooterHome .Footer_copyrigth .copy_footer {
+  padding-top: 10px;
+}
+#FooterHome .Footer_copyrigth .Footer_imagepaymet {
+  padding-top: 10px;
+}
+
 /* este es es header*/
 .homme_header .Shipping_cost {
   background: linear-gradient(to right, blue, white);
@@ -16,7 +135,7 @@
   font-family: "Mulish", sans-serif;
 }
 .homme_header .Shipping_cost .shippinB {
-  color: #ebebeb;
+  color: red;
   background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
   background-clip: text;
   animation: color 3s linear infinite;
@@ -126,7 +245,7 @@
   height: 44px;
 }
 .homme_header .menuHeader .menu_section {
-  font-family: "Inter", sans-serif;
+  font-family: "Nuosu SIL", serif;
   padding: 10px;
   list-style: none;
 }
@@ -158,6 +277,9 @@
 #principalSection {
   padding: 10px;
   background: #ebebeb;
+}
+#principalSection .homePrincipal .titulo_tienda {
+  visibility: hidden;
 }
 #principalSection .homePrincipal .SubHomeprincipal .carrouselPrincipal .carrouselProductosmujer {
   width: 1309px;
@@ -336,124 +458,6 @@
   font-weight: 500;
   font-size: 20;
   font-family: "Nova Mono", monospace;
-}
-#FooterHome {
-  border-top: 1px solid chocolate;
-  margin: 5px;
-  padding: 5px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-#FooterHome a {
-  text-decoration: none;
-}
-#FooterHome .Contac_form {
-  padding-top: 30px;
-}
-#FooterHome .Contac_form .form_sub {
-  display: flex;
-}
-#FooterHome .Contac_form .form_sub .Email_clib {
-  height: 30px;
-}
-#FooterHome .Contac_form .form_sub .form_suscrib .button.Email_clib {
-  background: #ffa040;
-  border: 0px;
-}
-#FooterHome .sectionFooter {
-  display: flex;
-  justify-content: space-between;
-  font-family: "Inter", sans-serif;
-}
-#FooterHome .sectionFooter .information_entrepise {
-  padding-top: 7px;
-  padding-bottom: 10px;
-}
-#FooterHome .sectionFooter .information_entrepise .logo_footer {
-  padding-bottom: 10px;
-}
-#FooterHome .sectionFooter .information_entrepise .Information_entrepise .Inf_enter {
-  padding-top: 10px;
-}
-#FooterHome .sectionFooter .Social_mediaContac {
-  display: flex;
-  flex-direction: column;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-#FooterHome .sectionFooter .Social_mediaContac .Social_mediaContacS {
-  display: flex;
-  justify-items: center;
-}
-#FooterHome .sectionFooter .Social_mediaContac .Social_mediaContacS .Social_subicon {
-  height: 30px;
-  width: 30px;
-}
-#FooterHome .sectionFooter .Social_mediaContac .Social_mediaContacS .Information_bus {
-  padding-top: 8px;
-  padding-left: 4px;
-}
-#FooterHome .sectionFooter .categorias {
-  padding-top: 30px;
-}
-#FooterHome .sectionFooter .categorias .Tittle_footerC {
-  color: #7c667c;
-}
-#FooterHome .sectionFooter .categorias .sub-listfooter {
-  list-style: none;
-  padding: 5px;
-}
-#FooterHome .sectionFooter .categorias .sub-listfooter .SubFooter {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-#FooterHome .sectionFooter .accountCustomer {
-  padding-top: 30px;
-}
-#FooterHome .sectionFooter .accountCustomer .Tittle_footerC {
-  color: #7c667c;
-}
-#FooterHome .sectionFooter .accountCustomer .sub-listfooter {
-  list-style: none;
-  padding: 5px;
-}
-#FooterHome .sectionFooter .accountCustomer .sub-listfooter .SubFooter {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-#FooterHome .sectionFooter .informationEmpresa {
-  padding-top: 30px;
-}
-#FooterHome .sectionFooter .informationEmpresa .Tittle_footerC {
-  color: #7c667c;
-}
-#FooterHome .sectionFooter .informationEmpresa .sub-listfooter {
-  list-style: none;
-  padding: 5px;
-}
-#FooterHome .sectionFooter .informationEmpresa .sub-listfooter .SubFooter {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-#FooterHome .sectionFooter .social_media {
-  padding-top: 30px;
-}
-#FooterHome .sectionFooter .social_media .Social_mediaA {
-  padding-top: 10px;
-}
-#FooterHome .sectionFooter .social_media .Social_mediaA .Social_icon {
-  height: 30px;
-}
-#FooterHome .Footer_copyrigth {
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid grey;
-}
-#FooterHome .Footer_copyrigth .copy_footer {
-  padding-top: 10px;
-}
-#FooterHome .Footer_copyrigth .Footer_imagepaymet {
-  padding-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

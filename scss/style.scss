@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
 
 @font-face {
@@ -9,6 +10,11 @@
     src: url('tipografia/Muli-Semi-BoldItalic.ttf');
 }
 
-@import 'header';
-@import 'main';
-@import 'footer'
+
+@import'../scss/Base/listas';
+@import'../scss/Base/variables';
+@import'../scss/componentes/footer';
+@import'../scss/componentes/header';
+@import'../scss/componentes/main';
+
+

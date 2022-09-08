@@ -1,0 +1,22 @@
+en el index agregue las etiquetas en todas las paginas
+meta name description y keyword
+agregue una etiqueta h1
+hay un H1 EN:
+seccion acerca de nosotros
+seccion contacto
+seccion carrito de compras
+seccion mi cuenta
+seccion pagos
+seccion productos hogar
+seccion productos hombre
+seccion productos Mujer
+seccion productos niño
+seccion seguimiento de pedido
+seccion terminos y condiciones
+
+LAS ETIQUETAS ALT DE LAS IMAGENES
+estan completadas en las imagenes de los productos
+
+
+
+
