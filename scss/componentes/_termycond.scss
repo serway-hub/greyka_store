@@ -1,0 +1,39 @@
+#terminosYcondiciones{
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    font-family: 'Mingzat', sans-serif;
+}
+@media only screen and (max-width: 480px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #terminosYcondiciones{
+        padding: 15px;
+        font-size: 10px;
+        font-family: 'Mingzat', sans-serif;
+    }
+
+}
+@media only screen and (min-width: 481px) and (max-width: 620px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #terminosYcondiciones{
+        padding: 15px;
+        font-size: 15px;
+        font-family: 'Mingzat', sans-serif;
+    }
+
+}

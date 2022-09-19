@@ -1,0 +1,329 @@
+#principalSection{
+    .Productos_Hogar{
+        display: grid;
+        grid-template-columns: 0.2fr 2fr;
+        .Nav_hogar{
+            text-align: center;
+            .Section_asideNav{
+                h1{
+                    color: #7c667c;
+                    font-family: 'Mulish', sans-serif;
+
+                }
+            }
+        }
+        .grid_products{
+            .section_order{
+
+            }
+            .section_products{
+                display: inline-flex;
+                flex-direction: row;
+                list-style: none;
+                li{
+                    div{
+                        .carrouselImage{
+
+                        }
+                        .ConteItem{
+                            .TitleProduct{
+                                color: #7c667c;
+                                font-family: 'Mulish', sans-serif;
+
+                            }
+                            .ItemsPrice{
+                                .SubItemPrice{
+                                    color: #7c667c;
+                                    font-family: 'Mingzat', sans-serif;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+@media only screen and (max-width: 480px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #principalSection{
+        .Productos_Hogar{
+            display: grid;
+            grid-template-columns: 2fr;
+            .Nav_hogar{
+                text-align: center;
+                margin-bottom: 20px;
+                .Section_asideNav{
+                    h1{
+                        color: #7c667c;
+                        font-family: 'Mulish', sans-serif;
+    
+                    }
+                }
+            }
+            .grid_products{
+                .section_order{
+    
+                }
+                .section_products{
+                    display: inline-flex;
+                    flex-direction: row;
+                    list-style: none;
+                    li{
+                        div{
+                            .carrouselImage{
+    
+                            }
+                            .ConteItem{
+                                .TitleProduct{
+                                    color: #7c667c;
+                                    font-family: 'Mulish', sans-serif;
+    
+                                }
+                                .ItemsPrice{
+                                    .SubItemPrice{
+                                        color: #7c667c;
+                                        font-family: 'Mingzat', sans-serif;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 620px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #principalSection{
+        .Productos_Hogar{
+            display: grid;
+            grid-template-columns: 2fr;
+            .Nav_hogar{
+                text-align: center;
+                margin-bottom: 20px;
+                .Section_asideNav{
+                    h1{
+                        color: #7c667c;
+                        font-family: 'Mulish', sans-serif;
+    
+                    }
+                }
+            }
+            .grid_products{
+                .section_order{
+    
+                }
+                .section_products{
+                    display: inline-flex;
+                    flex-direction: row;
+                    list-style: none;
+                    li{
+                        div{
+                            .carrouselImage{
+    
+                            }
+                            .ConteItem{
+                                .TitleProduct{
+                                    color: #7c667c;
+                                    font-family: 'Mulish', sans-serif;
+    
+                                }
+                                .ItemsPrice{
+                                    .SubItemPrice{
+                                        color: #7c667c;
+                                        font-family: 'Mingzat', sans-serif;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 621px) and (max-width: 768px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #principalSection{
+        .Productos_Hogar{
+            display: grid;
+            grid-template-columns: 2fr;
+            .Nav_hogar{
+                text-align: center;
+                margin-bottom: 20px;
+                .Section_asideNav{
+                    h1{
+                        color: #7c667c;
+                        font-family: 'Mulish', sans-serif;
+    
+                    }
+                }
+            }
+            .grid_products{
+                .section_order{
+    
+                }
+                .section_products{
+                    display: inline-flex;
+                    flex-direction: row;
+                    list-style: none;
+                    li{
+                        div{
+                            .carrouselImage{
+    
+                            }
+                            .ConteItem{
+                                .TitleProduct{
+                                    color: #7c667c;
+                                    font-family: 'Mulish', sans-serif;
+                                }
+                                .ItemsPrice{
+                                    .SubItemPrice{
+                                        color: #7c667c;
+                                        font-family: 'Mingzat', sans-serif;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 837px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #principalSection{
+        .Productos_Hogar{
+            display: grid;
+            grid-template-columns: 2fr;
+            .Nav_hogar{
+                text-align: center;
+                margin-bottom: 20px;
+                .Section_asideNav{
+                    h1{
+                        color: #7c667c;
+                        font-family: 'Mulish', sans-serif;
+    
+                    }
+                }
+            }
+            .grid_products{
+                .section_order{
+    
+                }
+                .section_products{
+                    display: inline-flex;
+                    flex-direction: row;
+                    list-style: none;
+                    li{
+                        div{
+                            .carrouselImage{
+    
+                            }
+                            .ConteItem{
+                                .TitleProduct{
+                                    color: #7c667c;
+                                    font-family: 'Mulish', sans-serif;
+                                }
+                                .ItemsPrice{
+                                    .SubItemPrice{
+                                        color: #7c667c;
+                                        font-family: 'Mingzat', sans-serif;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 838px) and (max-width: 1065px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #principalSection{
+        .Productos_Hogar{
+            display: grid;
+            grid-template-columns: 2fr;
+            .Nav_hogar{
+                text-align: center;
+                margin-bottom: 20px;
+                .Section_asideNav{
+                    h1{
+                        color: #7c667c;
+                        font-family: 'Mulish', sans-serif;
+    
+                    }
+                }
+            }
+            .grid_products{
+                .section_order{
+    
+                }
+                .section_products{
+                    display: inline-flex;
+                    flex-direction: row;
+                    list-style: none;
+                    li{
+                        div{
+                            .carrouselImage{
+    
+                            }
+                            .ConteItem{
+                                .TitleProduct{
+                                    color: #7c667c;
+                                    font-family: 'Mulish', sans-serif;
+                                }
+                                .ItemsPrice{
+                                    .SubItemPrice{
+                                        color: #7c667c;
+                                        font-family: 'Mingzat', sans-serif;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+
+#Contactanos{
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+
+    }
+    .Contac_form1{
+        padding-top: 30px;
+        padding-left: 500px;
+        padding-right: 500px;
+        padding-bottom: 200px;
+        font-family: 'Mingzat', sans-serif;
+    }
+}
+@media only screen and (max-width: 480px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #Contactanos{
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+    
+        }
+        .Contac_form1{
+            padding-top: 30px;
+            padding-left: 500px;
+            padding-right: 500px;
+            padding-bottom: 200px;
+            font-family: 'Mingzat', sans-serif;
+        }
+    }
+
+}

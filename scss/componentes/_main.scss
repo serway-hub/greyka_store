@@ -9,12 +9,34 @@
         }
         .SubHomeprincipal{
             .carrouselPrincipal{
-                .carrouselProductosmujer{
-                    width: 1309px;
-                    .Barnner_Mujer{
-                        width: 1309px;
+                height: 300px;
+                #carouselExampleCaptions{
+                    .carousel-inner{
+                        .carousel-item{
+                            height: 300px;
+                            .d-block{
+                                height: 300px;
+                            }
+                            .carousel-caption{
+                                h5{
+                                    color: #7c667c;
+                                    font-weight: 800;
+
+                                }
+                                p{
+                                    color: #7c667c;
+
+                                }
+                            }
+                        }
+                        .active{
+                            .w-100{
+                                background: white;
+                            }
+                        }
                     }
                 }
+                
             }
             .icons_home{
                 padding-left: 70px;
@@ -25,19 +47,21 @@
                 background: white;
                 border: 1px #ebebeb;
                 border-radius: 10px;
+                font-family: 'Mulish', sans-serif;
                 .section_icons{
                     .section_iconsB{
                         display: flex;
                         justify-content: space-between;
                         .section_subicons{
+                            display: flex;
                             .Box_iconsA{
-                                padding-left: 20px;
                                 .icons_pict{
                                 }
                             }
                             .Box_iconsB{
                                 border-right: 1px solid grey;
                                 padding-right: 20px;
+                                text-align: center;
                             }
                         }
                     }
@@ -52,13 +76,16 @@
                         .Imag_Barnner{
                             width: 400px;
                             height: 200px;
-                            .Parr_barnnerOfer{
-                                position: relative;
-                                bottom: 190px;
-                                left: 10px;
-                                font-family: 'Mingzat', sans-serif;
-                                font-weight: 600;
-                            }
+                            
+                        }
+                        .Parr_barnnerOfer{
+                            position: relative;
+                            bottom: 190px;
+                            left: 10px;
+                            color: gray;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: 600;
+                            text-align: center;
                         }
                     }
                 }
@@ -76,7 +103,7 @@
                     .image_homeSection{
                         background: white;
                         .ImageHome_products{
-                            height: 676px;
+                            height: 728px;
                             width: 500px;
                         }
                     }
@@ -139,7 +166,73 @@
                     .image_homeSection{
                         background: white;
                         .ImageHome_products{
-                            height: 676px;
+                            height: 728px;
+                            width: 500px;
+                        }
+                    }
+                    .SectionHombre{
+                        .sectionCarrousel{
+                            .carrouselProductoshombre{
+                                .carrouselItems{
+                                    display: grid;
+                                    grid-template-columns: 1fr 1fr 1fr;
+                                    padding-left: 30px;
+                                    .boxHome_productos{
+                                        padding: 4px;
+                                        background: white;
+                                        margin: 4px;
+                                        border-radius: 4px;
+                                        .carrouselImage{
+
+                                        }
+                                        .ConteItem{
+                                            padding-top: 20px;
+                                            padding-left: 10px;
+                                            padding-right: 20px;
+                                            padding-bottom: 20px;
+                                            .TitleProduct{
+                                                font-family: 'Inter', sans-serif;
+                                                padding-bottom: 10px;
+
+                                            }
+                                            .ItemsPrice{
+                                                .SubItemPrice{
+                                                    font-weight: 500;
+                                                    font-size: 20;
+                                                    font-family: 'Nova Mono', monospace;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .prod_four{
+
+                                    }
+                                    .prod_five{
+
+                                    }
+                                    .prod_six{
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .ProductosParaniños{
+                padding: 30px;
+                .Tittle_secction{
+                    padding-bottom: 20px;
+                    color: #7c667c;
+                    font-family: 'Mulish', sans-serif;
+                    font-weight: 900;
+                }
+                .ProductosParaHombreB{
+                    display: flex;
+                    .image_homeSection{
+                        background: white;
+                        .ImageHome_products{
+                            height: 728px;
                             width: 500px;
                         }
                     }
@@ -189,67 +282,1933 @@
                     }
                 }
             }
-            .ProductosParaniños{
-                padding: 30px;
-                .Tittle_secction{
-                    padding-bottom: 20px;
-                    color: #7c667c;
-                    font-family: 'Mulish', sans-serif;
-                    font-weight: 900;
-                }
-                .ProductosParaHombreB{
-                    display: flex;
-                    .image_homeSection{
-                        background: white;
-                        .ImageHome_products{
-                            height: 676px;
-                            width: 500px;
-                        }
-                    }
-                    .SectionHombre{
-                        .sectionCarrousel{
-                            .carrouselProductoshombre{
-                                .carrouselItems{
-                                    display: grid;
-                                    grid-template-columns: 1fr 1fr 1fr;
-                                    padding-left: 30px;
-                                    .boxHome_productos{
-                                        padding: 4px;
-                                        background: white;
-                                        margin: 4px;
-                                        border-radius: 4px;
-                                        .carrouselImage{
-
-                                        }
-                                        .ConteItem{
-                                            padding-top: 20px;
-                                            padding-left: 10px;
-                                            padding-right: 20px;
-                                            padding-bottom: 20px;
-                                            .TitleProduct{
-                                                font-family: 'Inter', sans-serif;
-                                                padding-bottom: 10px;
-
-                                            }
-                                            .ItemsPrice{
-                                                .SubItemPrice{
-                                                    font-weight: 500;
-                                                    font-size: 20;
-                                                    font-family: 'Nova Mono', monospace;
-                                                }
-                                            }
-                                        }
-                                    }
-                                    .prod_four{
-
-                                    }
-                                    .prod_five{
-
-                                    }
+        }
+    }
+}
+/*Media query parte central*/
+@media only screen and (max-width: 480px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #principalSection{
+        padding: 5px;
+        width: 480px;
+        .homePrincipal{
+            .titulo_tienda{
+                visibility: hidden;
+            }
+            .SubHomeprincipal{
+                .carrouselPrincipal{
+                    height: 100px;
+                    #carouselExampleCaptions{
+                        .carousel-inner{
+                            .carousel-item{
+                                height: 100px;
+                                .d-block{
+                                    height: 100px;
                                 }
                             }
                         }
                     }
+                    
+                }
+                .icons_home{
+                    padding: 5px;
+                    margin-top: 10px;
+                    font-size: 10px;
+                    text-align: center;
+                    font-family: 'Mingzat', sans-serif;
+                    .section_icons{
+                        .section_iconsB{
+                            display: grid;
+                            grid-template-columns: 3fr 3fr;
+                            grid-template-rows: 3fr 3fr;
+                            width: 100%;
+                            .section_subicons{
+                                justify-content: center;
+                                .Box_iconsA{
+                                    padding: 0px;
+                                    size: 10px;
+                                    .icons_pict{
+                                        height: 30px;
+                                        width: 40px;
+                                    }
+                                }
+                                .Box_iconsB{
+                                    padding: 0px;
+                                    border: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .Barnner_Ofered{
+                    .SubBarnner_ofered{
+                        padding: 0px;
+                        margin-top: 10px;
+                        display: grid;
+                        justify-content: normal;
+                        .Barnner_imag{
+                            .Imag_Barnner{
+                                width: 100%;    
+                            }
+                            .Parr_barnnerOfer{
+                                position: relative;
+                                bottom: 190px;
+                                left: 10px;
+                                font-family: 'Mingzat', sans-serif;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+                .ProductosParahombre{
+                    padding: 0px;
+                    width: 100%;                    
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+    
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                            display: none;    
+                                        }
+                                        .prod_six{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+                .ProductosParaMujer{
+                    padding: 3px;
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center;
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                            display: none;
+                                        }
+                                        .prod_six{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+                .ProductosParaniños{
+                    padding: 3px;
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+    
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                            display: none;    
+                                        }
+                                        .prod_six{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 620px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #principalSection{
+        padding: 5px;
+        .homePrincipal{
+            .titulo_tienda{
+                visibility: hidden;
+            }
+            .SubHomeprincipal{
+                .carrouselPrincipal{
+                    height: 100px;
+                    #carouselExampleCaptions{
+                        .carousel-inner{
+                            .carousel-item{
+                                height: 100px;
+                                .d-block{
+                                    height: 100px;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+                .icons_home{
+                    padding: 5px;
+                    margin-top: 10px;
+                    font-size: 10px;
+                    text-align: center;
+                    font-family: 'Mingzat', sans-serif;
+                    .section_icons{
+                        .section_iconsB{
+                            display: grid;
+                            grid-template-columns: 3fr 3fr;
+                            grid-template-rows: 3fr 3fr;
+                            width: 100%;
+                            .section_subicons{
+                                justify-content: center;
+                                .Box_iconsA{
+                                    padding: 0px;
+                                    size: 10px;
+                                    .icons_pict{
+                                        height: 30px;
+                                        width: 40px;
+                                    }
+                                }
+                                .Box_iconsB{
+                                    padding: 0px;
+                                    border: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .Barnner_Ofered{
+                    .SubBarnner_ofered{
+                        padding: 0px;
+                        margin-top: 10px;
+                        display: grid;
+                        justify-content: normal;
+                        .Barnner_imag{
+                            .Imag_Barnner{
+                                width: 100%;    
+                            }
+                            .Parr_barnnerOfer{
+                                position: relative;
+                                bottom: 190px;
+                                left: 10px;
+                                font-family: 'Mingzat', sans-serif;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+                .ProductosParahombre{
+                    padding: 0px;
+                    width: 100%;                    
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+    
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                            display: none;    
+                                        }
+                                        .prod_six{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+                .ProductosParaMujer{
+                    padding: 3px;
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+    
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                            display: none;    
+                                        }
+                                        .prod_six{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+                .ProductosParaniños{
+                    padding: 3px;
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+    
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                            display: none;    
+                                        }
+                                        .prod_six{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 621px) and (max-width: 768px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #principalSection{
+        padding: 5px;
+        .homePrincipal{
+            .titulo_tienda{
+                visibility: hidden;
+            }
+            .SubHomeprincipal{
+                .carrouselPrincipal{
+                    height: 200px;
+                    #carouselExampleCaptions{
+                        .carousel-inner{
+                            .carousel-item{
+                                height: 200px;
+                                .d-block{
+                                    height: 200px;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+                .icons_home{
+                    padding: 5px;
+                    margin-top: 10px;
+                    font-size: 10px;
+                    text-align: center;
+                    font-family: 'Mingzat', sans-serif;
+                    .section_icons{
+                        .section_iconsB{
+                            display: grid;
+                            grid-template-columns: 3fr 3fr;
+                            grid-template-rows: 3fr 3fr;
+                            width: 100%;
+                            .section_subicons{
+                                justify-content: center;
+                                .Box_iconsA{
+                                    padding: 0px;
+                                    size: 10px;
+                                    .icons_pict{
+                                        height: 30px;
+                                        width: 40px;
+                                    }
+                                }
+                                .Box_iconsB{
+                                    padding: 0px;
+                                    border: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .Barnner_Ofered{
+                    .SubBarnner_ofered{
+                        padding: 0px;
+                        margin-top: 10px;
+                        display: grid;
+                        justify-content: normal;
+                        .Barnner_imag{
+                            .Imag_Barnner{
+                                width: 100%;    
+                            }
+                            .Parr_barnnerOfer{
+                                position: relative;
+                                bottom: 190px;
+                                left: 10px;
+                                font-family: 'Mingzat', sans-serif;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+                .ProductosParahombre{
+                    padding: 0px;
+                    width: 100%;                    
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+    
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                            display: none;    
+                                        }
+                                        .prod_six{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+                .ProductosParaMujer{
+                    padding: 3px;
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+    
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                            display: none;    
+                                        }
+                                        .prod_six{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+                .ProductosParaniños{
+                    padding: 3px;
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                            display: none;    
+                                        }
+                                        .prod_six{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 837px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #principalSection{
+        padding: 5px;
+        .homePrincipal{
+            .titulo_tienda{
+                visibility: hidden;
+            }
+            .SubHomeprincipal{
+                .carrouselPrincipal{
+                    height: 300px;
+                    #carouselExampleCaptions{
+                        .carousel-inner{
+                            .carousel-item{
+                                height: 300px;
+                                .d-block{
+                                    height: 300px;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+                .icons_home{
+                    padding: 5px;
+                    margin-top: 10px;
+                    font-size: 10px;
+                    text-align: center;
+                    font-family: 'Mingzat', sans-serif;
+                    .section_icons{
+                        .section_iconsB{
+                            display: grid;
+                            grid-template-columns: 3fr 3fr;
+                            grid-template-rows: 3fr 3fr;
+                            width: 100%;
+                            .section_subicons{
+                                justify-content: center;
+                                .Box_iconsA{
+                                    padding: 0px;
+                                    size: 10px;
+                                    .icons_pict{
+                                        height: 30px;
+                                        width: 40px;
+                                    }
+                                }
+                                .Box_iconsB{
+                                    padding: 0px;
+                                    border: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .Barnner_Ofered{
+                    .SubBarnner_ofered{
+                        padding: 0px;
+                        margin-top: 10px;
+                        display: grid;
+                        grid-template-columns: 2fr 2fr 2fr;
+                        justify-content: normal;
+                        .Barnner_imag{
+                            .Imag_Barnner{
+                                width: 100%;    
+                            }
+                            .Parr_barnnerOfer{
+                                position: relative;
+                                bottom: 190px;
+                                left: 10px;
+                                font-family: 'Mingzat', sans-serif;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+                .ProductosParahombre{
+                    padding: 0px;
+                    width: 100%;                    
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+    
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                                
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+                .ProductosParaMujer{
+                    padding: 3px;
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+    
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                                
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+                .ProductosParaniños{
+                    padding: 3px;
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                               
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 838px) and (max-width: 1065px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #principalSection{
+        padding: 5px;
+        .homePrincipal{
+            .titulo_tienda{
+                visibility: hidden;
+            }
+            .SubHomeprincipal{
+                .carrouselPrincipal{
+                    height: 300px;
+                    #carouselExampleCaptions{
+                        .carousel-inner{
+                            .carousel-item{
+                                height: 300px;
+                                .d-block{
+                                    height: 300px;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+                .icons_home{
+                    padding: 5px;
+                    margin-top: 10px;
+                    font-size: 10px;
+                    text-align: center;
+                    font-family: 'Mingzat', sans-serif;
+                    .section_icons{
+                        .section_iconsB{
+                            display: grid;
+                            grid-template-columns: 3fr 3fr;
+                            grid-template-rows: 3fr 3fr;
+                            width: 100%;
+                            .section_subicons{
+                                justify-content: center;
+                                .Box_iconsA{
+                                    padding: 0px;
+                                    size: 10px;
+                                    .icons_pict{
+                                        height: 30px;
+                                        width: 40px;
+                                    }
+                                }
+                                .Box_iconsB{
+                                    padding: 0px;
+                                    border: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .Barnner_Ofered{
+                    .SubBarnner_ofered{
+                        padding: 0px;
+                        margin-top: 10px;
+                        display: grid;
+                        grid-template-columns: 2fr 2fr 2fr;
+                        justify-content: normal;
+                        .Barnner_imag{
+                            .Imag_Barnner{
+                                width: 100%;    
+                            }
+                            .Parr_barnnerOfer{
+                                position: relative;
+                                bottom: 190px;
+                                left: 10px;
+                                font-family: 'Mingzat', sans-serif;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+                .ProductosParahombre{
+                    padding: 0px;
+                    width: 100%;                    
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+    
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                                
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+                .ProductosParaMujer{
+                    padding: 3px;
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+    
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                                
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+                .ProductosParaniños{
+                    padding: 3px;
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                               
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1066px) and (max-width: 1100px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #principalSection{
+        padding: 5px;
+        .homePrincipal{
+            .titulo_tienda{
+                visibility: hidden;
+            }
+            .SubHomeprincipal{
+                .carrouselPrincipal{
+                    height: 250px;
+                    .carrouselProductosmujer{
+                        width: 100%;
+                        height: 250px;
+                        .Barnner_Mujer{
+                            width: 100%;
+                            height: 250px;
+                        }
+                    }
+                }
+                .icons_home{
+                    padding: 5px;
+                    margin-top: 10px;
+                    font-size: 10px;
+                    text-align: center;
+                    font-family: 'Mingzat', sans-serif;
+                    .section_icons{
+                        .section_iconsB{
+                            width: 100%;
+                            .section_subicons{
+                                justify-content: center;
+                                .Box_iconsA{
+                                    padding: 0px;
+                                    size: 10px;
+                                    .icons_pict{
+                                        height: 30px;
+                                        width: 40px;
+                                    }
+                                }
+                                .Box_iconsB{
+                                    padding: 0px;
+                                    border: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .Barnner_Ofered{
+                    .SubBarnner_ofered{
+                        padding: 0px;
+                        margin-top: 10px;
+                        display: grid;
+                        grid-template-columns: 2fr 2fr 2fr;
+                        justify-content: normal;
+                        .Barnner_imag{
+                            .Imag_Barnner{
+                                width: 100%;    
+                            }
+                            .Parr_barnnerOfer{
+                                position: relative;
+                                bottom: 190px;
+                                left: 10px;
+                                font-family: 'Mingzat', sans-serif;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+                .ProductosParahombre{
+                    padding: 0px;
+                    width: 100%;                    
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+    
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                            display: none;                                                
+                                        }
+                                        .prod_six{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+                .ProductosParaMujer{
+                    padding: 3px;
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+    
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{display: none;
+                                                
+                                        }
+                                        .prod_six{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+                .ProductosParaniños{
+                    padding: 3px;
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                            display: none;                                               
+                                        }
+                                        .prod_six{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1101px) and (max-width: 1200px){
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mingzat&family=Mulish:ital,wght@0,700;0,800;1,500;1,600;1,800&family=Nova+Flat&family=Nova+Mono&family=Nuosu+SIL&display=swap');
+    .home_central{
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+    #principalSection{
+        padding: 5px;
+        .homePrincipal{
+            .titulo_tienda{
+                visibility: hidden;
+            }
+            .SubHomeprincipal{
+                .carrouselPrincipal{
+                    height: 250px;
+                    .carrouselProductosmujer{
+                        width: 100%;
+                        height: 250px;
+                        .Barnner_Mujer{
+                            width: 100%;
+                            height: 250px;
+                        }
+                    }
+                }
+                .icons_home{
+                    padding: 5px;
+                    margin-top: 10px;
+                    font-size: 10px;
+                    text-align: center;
+                    font-family: 'Mingzat', sans-serif;
+                    .section_icons{
+                        .section_iconsB{
+                            width: 100%;
+                            .section_subicons{
+                                justify-content: center;
+                                .Box_iconsA{
+                                    padding: 0px;
+                                    size: 10px;
+                                    .icons_pict{
+                                        height: 30px;
+                                        width: 40px;
+                                    }
+                                }
+                                .Box_iconsB{
+                                    padding: 0px;
+                                    border: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .Barnner_Ofered{
+                    .SubBarnner_ofered{
+                        padding: 0px;
+                        margin-top: 10px;
+                        display: grid;
+                        grid-template-columns: 2fr 2fr 2fr;
+                        justify-content: normal;
+                        .Barnner_imag{
+                            .Imag_Barnner{
+                                width: 100%;    
+                            }
+                            .Parr_barnnerOfer{
+                                position: relative;
+                                bottom: 190px;
+                                left: 10px;
+                                font-family: 'Mingzat', sans-serif;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+                .ProductosParahombre{
+                    padding: 0px;
+                    width: 100%;                    
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{                                            
+                                                
+                                        }
+                                        .prod_six{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+                .ProductosParaMujer{
+                    padding: 3px;
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+    
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                                
+                                        }
+                                        .prod_six{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
+                }
+                .ProductosParaniños{
+                    padding: 3px;
+                    .Tittle_secction{
+                        
+                    }
+                    .ProductosParaHombreB{
+                        
+                        .image_homeSection{
+                            display: none;                            
+                            .ImageHome_products{
+                                
+                            }
+                        }
+                        .SectionHombre{
+                            width: 100%;
+                            font-family: 'Nova Mono', monospace;
+                            .sectionCarrousel{
+                                .carrouselProductoshombre{
+                                    .carrouselItems{
+                                        padding: 0px;
+                                        display: grid;
+                                        grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+                                        width: 100%;
+                                        justify-items:center; 
+                                        .boxHome_productos{
+                                            width: 220px;                                           
+                                            .carrouselImage{
+                                                height: 220px;
+                                                width: 220px;
+                                                .Imag_home{
+                                                    height: 220px;
+                                                    width: 220px
+                                                }
+                                            }
+                                            .ConteItem{
+                                                padding: 10px;
+                                                .TitleProduct{
+                                                    font-family: 'Inter', sans-serif;
+                                                    padding-bottom: 10px;
+                                                }
+                                                .ItemsPrice{
+                                                    .SubItemPrice{
+                                                        font-weight: 500;
+                                                        font-size: 20;
+                                                        font-family: 'Nova Mono', monospace;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .prod_four{
+    
+                                        }
+                                        .prod_five{
+                                            
+                                               
+                                        }
+                                        .prod_six{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }      
                 }
             }
         }

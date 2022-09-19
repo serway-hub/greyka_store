@@ -1,0 +1,33 @@
+#cuentaCostumer{
+    .dasboard_cliente{
+        padding-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 60px;
+        display: flex;
+        .General_menu{
+            font-family: 'Mingzat', sans-serif;
+            font-size: larger;
+            .section_bienv{
+
+            }
+            .Panel_menu{
+                .Menu_central{
+                    .Menu_micuenta{
+                        display: grid;
+                        .Items_menucliente{
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            border-bottom: 1px solid gray;
+                            border-top: 1px solid gray;
+                        }
+                    }
+                }
+            }
+        }
+        .panel_micuenta{
+            font-family: 'Mingzat', sans-serif;
+            size: 80px;
+        }
+    }
+}
