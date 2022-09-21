@@ -456,7 +456,7 @@
   background: white;
 }
 .home_central .homme_header .menuHeader .hamburger_menu .Nav_Hamburguer .sub-listfooter {
-  width: 120px;
+  width: 160px;
   background: white;
   padding-top: 10px;
 }
@@ -477,6 +477,7 @@
   font-variant: small-caps;
   font-family: "Inter", sans-serif;
   list-style: none;
+  z-index: 1;
 }
 .home_central .homme_header .menuHeader .logo {
   width: 80px;
@@ -593,6 +594,14 @@
   }
   .home_central .homme_header .menuHeader input#Open_Colse {
     cursor: pointer;
+  }
+  .home_central .homme_header .menuHeader .hamburger_menu .Nav_Hamburguer .sub-listfooter {
+    width: 160px;
+    background: white;
+    padding-top: 10px;
+  }
+  .home_central .homme_header .menuHeader .hamburger_menu .Nav_Hamburguer .sub-listfooter .SubFooter .First_Menu {
+    z-index: 1;
   }
   .home_central .homme_header .menuHeader .logo {
     justify-self: center;
@@ -735,6 +744,14 @@
   .home_central .homme_header .menuHeader input#Open_Colse {
     cursor: pointer;
   }
+  .home_central .homme_header .menuHeader .hamburger_menu .Nav_Hamburguer .sub-listfooter {
+    width: 160px;
+    background: white;
+    padding-top: 10px;
+  }
+  .home_central .homme_header .menuHeader .hamburger_menu .Nav_Hamburguer .sub-listfooter .SubFooter .First_Menu {
+    z-index: 1;
+  }
   .home_central .homme_header .menuHeader .logo {
     justify-self: center;
     margin-left: 20px;
@@ -876,6 +893,14 @@
   .home_central .homme_header .menuHeader input#Open_Colse {
     cursor: pointer;
   }
+  .home_central .homme_header .menuHeader .hamburger_menu .Nav_Hamburguer .sub-listfooter {
+    width: 160px;
+    background: white;
+    padding-top: 10px;
+  }
+  .home_central .homme_header .menuHeader .hamburger_menu .Nav_Hamburguer .sub-listfooter .SubFooter .First_Menu {
+    z-index: 1;
+  }
   .home_central .homme_header .menuHeader .logo {
     justify-self: center;
     margin-left: 20px;
@@ -1016,6 +1041,14 @@
   }
   .home_central .homme_header .menuHeader input#Open_Colse {
     cursor: pointer;
+  }
+  .home_central .homme_header .menuHeader .hamburger_menu .Nav_Hamburguer .sub-listfooter {
+    width: 160px;
+    background: white;
+    padding-top: 10px;
+  }
+  .home_central .homme_header .menuHeader .hamburger_menu .Nav_Hamburguer .sub-listfooter .SubFooter .First_Menu {
+    z-index: 1;
   }
   .home_central .homme_header .menuHeader .logo {
     justify-self: center;
@@ -1300,7 +1333,12 @@
     cursor: pointer;
   }
   .home_central .homme_header .menuHeader .hamburger_menu .Nav_Hamburguer .sub-listfooter {
+    width: 160px;
+    background: white;
     padding-top: 30px;
+  }
+  .home_central .homme_header .menuHeader .hamburger_menu .Nav_Hamburguer .sub-listfooter .SubFooter .First_Menu {
+    z-index: 1;
   }
   .home_central .homme_header .menuHeader .logo {
     justify-self: center;

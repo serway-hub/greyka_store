@@ -84,7 +84,7 @@
                     padding-top: 50px;
                     background: white;
                     .sub-listfooter{
-                        width: 120px;
+                        width: 160px;
                         background: white;
                         padding-top: 10px;                   
                         .SubFooter{
@@ -103,6 +103,7 @@
                                 font-variant: small-caps;
                                 font-family: 'Inter', sans-serif;
                                 list-style: none;
+                                z-index: 1;
                             }
                         }
                     }
@@ -261,12 +262,16 @@
                     .Nav_Hamburguer{
                         
                         .sub-listfooter{
+                            width: 160px;
+                            background: white;
+                            padding-top: 10px;
                             
                             .SubFooter{
                                 .icon1{
                                     
                                 }
                                 .First_Menu{
+                                    z-index: 1;
                                     
                                 }
                             }
@@ -486,12 +491,16 @@
                     .Nav_Hamburguer{
                         
                         .sub-listfooter{
+                            width: 160px;
+                            background: white;
+                            padding-top: 10px;
                             
                             .SubFooter{
                                 .icon1{
                                     
                                 }
                                 .First_Menu{
+                                    z-index: 1;
                                     
                                 }
                             }
@@ -712,12 +721,16 @@
                     .Nav_Hamburguer{
                         
                         .sub-listfooter{
+                            width: 160px;
+                            background: white;
+                            padding-top: 10px;
                             
                             .SubFooter{
                                 .icon1{
                                     
                                 }
                                 .First_Menu{
+                                    z-index: 1;
                                     
                                 }
                             }
@@ -937,12 +950,16 @@
                     .Nav_Hamburguer{
                         
                         .sub-listfooter{
+                            width: 160px;
+                            background: white;
+                            padding-top: 10px;
                             
                             .SubFooter{
                                 .icon1{
                                     
                                 }
                                 .First_Menu{
+                                    z-index: 1;
                                     
                                 }
                             }
@@ -1387,6 +1404,8 @@
                     .Nav_Hamburguer{
                         
                         .sub-listfooter{
+                            width: 160px;
+                            background: white;
                             padding-top: 30px;
                             
                             .SubFooter{
@@ -1394,6 +1413,7 @@
                                     
                                 }
                                 .First_Menu{
+                                    z-index: 1;
                                     
                                 }
                             }
